@@ -13,6 +13,11 @@ namespace ExceptionsLibrary
             try
             {
                 output = ParentMethod(position);
+
+                //if (position < 0)
+                //{
+                //    throw new IndexOutOfRangeException("The value must be >= 0");
+                //}
             }
             catch (Exception ex)
             {

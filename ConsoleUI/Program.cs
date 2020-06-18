@@ -36,7 +36,7 @@ namespace ConsoleUI
                 }
             }
 
-            
+
             Console.ReadLine();
         }
     }
